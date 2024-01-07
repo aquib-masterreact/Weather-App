@@ -1,0 +1,106 @@
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #8fd410;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+
+  }
+  
+  .city {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .last-updated {
+    color: #777;
+    font-size: 0.8em;
+  }
+  
+  .current-weather {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .temp {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .is-day {
+    color: #777;
+    font-size: 1em;
+  }
+  
+  .forecast {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .date {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .daily-condition {
+    font-size: 1em;
+  }
+  
+  .avg-temp,
+  .max-temp,
+  .min-temp {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .uv-index {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+
+  
