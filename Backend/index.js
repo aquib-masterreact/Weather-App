@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const locations = [];
+const locations = ["Mumbai","Kolkata","Chennai","Delhi"];
 
 app.get('/locations', (req, res) => {
   res.json(locations);
